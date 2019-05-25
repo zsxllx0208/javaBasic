@@ -27,6 +27,7 @@ public class T {
                 sum += i;
             }
         }
+        System.out.println(sum);
     }
 
 }
