@@ -21,10 +21,12 @@ public class T {
             System.out.println(b);
         }while (a<=5);
         System.out.println("结果为"+b);*/
-       int a=1;
-       while(a<10){
-
-       }
+        int sum = 0;
+        for (int i = 1;i <= 200;i++){
+            if(i % 3 == 0){
+                sum += i;
+            }
+        }
     }
 
 }
