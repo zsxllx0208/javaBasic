@@ -31,8 +31,10 @@ public class Staff {
         }
 
         }
-        public String toString(){
+        public String toString() {
+
             return "姓名："+name+"；性别："+sex+"；出生日期："+birth+"；员工类型："+type+"；工资："+wages;
+
         }
 
     }
